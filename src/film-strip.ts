@@ -20,7 +20,7 @@ export class FilmStrip extends HTMLElement implements VirtualizationDelegate {
   private frameCount = 0;
   private cellHeight = 100;
   private cellWidth = 100;
-  private cellGap = 12;
+  private cellGap = 6;
   private frameIndexMap = new WeakMap<HTMLElement, number>();
 
   constructor() {
